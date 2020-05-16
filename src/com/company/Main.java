@@ -10,6 +10,7 @@ public class Main {
         File f = new File("D:\\Dir\\program.txt");
         System.out.println(Dir.mkdir());
         // Create new file
+
         // if it does not exist
         if (f.createNewFile())
         System.out.println("File created");
